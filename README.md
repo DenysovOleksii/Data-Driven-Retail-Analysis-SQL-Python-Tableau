@@ -1,8 +1,5 @@
 # Comprehensive E-Commerce Sales & Audience Performance Analytics (SQL + Python + Tableau)
 
-[![Tableau](https://img.shields.io/badge/Tableau-Public-orange?style=flat&logo=tableau)]
-[![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python)]
-
 A deep, data-driven analytics project combining **SQL (Google BigQuery)** for structural data extraction, **Python (Pandas, SciPy)** for Exploratory Data Analysis (EDA) and advanced non-parametric hypothesis testing, and **Tableau** for building an executive corporate dashboard.
 
 The dataset evaluates web traffic metrics, purchase behaviors, and transactional seasonal fluctuations from **November 1, 2020, to January 27, 2021**.
