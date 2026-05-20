@@ -52,7 +52,8 @@ The dataset exhibits a significant number of missing values in specific columns,
 
 Analysis of the distribution of total sales volume (Total Sales) and the number of orders (Total Orders) across continents revealed the absolute market leader — **the Americas macro-region**.
 
-[INSERT CHART HERE]
+<img width="1183" height="584" alt="image" src="https://github.com/user-attachments/assets/ad551374-f37b-44f7-af46-39a22a586d67" />
+
 
 | Continent | Sales Volume ($) | Number of Orders | Share in Sales (%) |
 | :--- | :---: | :---: | :---: |
