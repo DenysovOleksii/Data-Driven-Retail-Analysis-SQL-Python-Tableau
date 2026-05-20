@@ -55,6 +55,7 @@ Analysis of the distribution of total sales volume (Total Sales) and the number 
 <img width="1183" height="584" alt="image" src="https://github.com/user-attachments/assets/ad551374-f37b-44f7-af46-39a22a586d67" />
 
 
+
 | Continent | Sales Volume ($) | Number of Orders | Share in Sales (%) |
 | :--- | :---: | :---: | :---: |
 | **Americas** | 17M | 18,553 | ~58.6% |
@@ -70,7 +71,9 @@ Analysis of the distribution of total sales volume (Total Sales) and the number 
 
 Deep analysis broken down by specific countries confirms the critical dependence of the business on one key geographical market, and also forms a clear pool of regions for further scaling.
 
-[INSERT CHART HERE]
+<img width="1184" height="584" alt="image" src="https://github.com/user-attachments/assets/b6733e8e-3750-4769-ae53-754fbd22dc6b" />
+
+
 
 | Country | Sales Volume, USD | Number of Orders | Average Order Value (AOV, USD) |
 |:---|:---|:---|:---|
@@ -89,7 +92,8 @@ Deep analysis broken down by specific countries confirms the critical dependence
 
 Analysis of the sales structure by product category allows assessing the company's product drivers, as well as aligning global consumer demand trends with customer preferences in the key market — the US.
 
-[INSERT CHART HERE]
+<img width="1190" height="584" alt="image" src="https://github.com/user-attachments/assets/a86b9b50-39ff-48c6-837b-6f28f028c5c6" />
+
 
 | № | Product Category | Total Revenue (USD) | Revenue in US (USD) | US Market Share (%) |
 |:---|:---|:---|:---|:---|
