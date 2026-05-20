@@ -10,8 +10,8 @@ The dataset evaluates web traffic metrics, purchase behaviors, and transactional
 ---
 
 ## 🔗 Project Deliverables
-* 📊 **[Interactive [![Tableau](https://img.shields.io/badge/Tableau-Public-orange?style=flat&logo=tableau)] Dashboard on Tableau Public](https://public.tableau.com/views/ISDashboard_17791122307720/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
-* 📓 **[Google Colab Notebook with Analytical Code](LINK_TO_YOUR_COLAB_OR_REPO)**
+* 📊 **[Interactive Tableau Dashboard on Tableau Public](https://public.tableau.com/views/ISDashboard_17791122307720/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+* 📓 **[Google Colab Notebook with Analytical Code](Ecommerce_Sales_Analysis.ipynb)**
 
 ---
 
