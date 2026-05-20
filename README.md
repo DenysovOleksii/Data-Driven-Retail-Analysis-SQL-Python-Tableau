@@ -10,13 +10,12 @@ The dataset evaluates web traffic metrics, purchase behaviors, and transactional
 ---
 
 ## 🔗 Project Deliverables
-* 📊 **[Interactive Tableau Dashboard on Tableau Public](https://public.tableau.com/views/ISDashboard_17791122307720/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+* 📊 **[Interactive Tableau Dashboard on Tableau Public](https://img.shields.io/badge/Tableau-Public-orange?style=flat&logo=tableau)](https://public.tableau.com/views/ISDashboard_17791122307720/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 * 📓 **[Google Colab Notebook with Analytical Code](LINK_TO_YOUR_COLAB_OR_REPO)**
 
 ---
 
 ## 🖼️ Corporate Executive Dashboard
-*(Insert a high-resolution screenshot of your dark-themed dashboard here)*
 ![Tableau Executive Dashboard](images/dashboard.png)
 
 ## Dataset Description (Exploratory Data Analysis)
