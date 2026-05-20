@@ -119,7 +119,8 @@ This stage of analysis allows determining the technical characteristics of the s
 
 #### 📊 Global Distribution & Top 10 Platforms by Sales Share
 
-[INSERT CHART HERE]
+<img width="1183" height="584" alt="image" src="https://github.com/user-attachments/assets/b97efbf3-d447-4653-982f-8e449dba6db4" />
+
 
 | № | Device Type (device) | Share (%) | | № | Platform / Model (model_name) | Share (%) |
 |:---|:---|:---|:---|:---|:---|:---|
@@ -144,7 +145,8 @@ This stage of analysis allows evaluating the effectiveness of marketing channels
 
 #### 📊 Sales Structure by Traffic Sources (Channel Type)
 
-[INSERT CHART HERE]
+<img width="799" height="504" alt="image" src="https://github.com/user-attachments/assets/15c06937-9f8e-41a9-b5ad-bed400eb4bc9" />
+
 
 | № | Traffic Channel (Channel Type) | Share of Total Sales (%) | Role in Marketing Strategy |
 |:---|:---|:---|:---|
@@ -163,7 +165,12 @@ This stage of analysis allows evaluating the effectiveness of marketing channels
 
 This stage of analysis allows evaluating the geographical distribution of the audience, the quality of the contact database of registered users, their level of interaction with the platform, and readiness to communicate via email marketing.
 
-[INSERT 2 CHARTS HERE]
+<img width="788" height="479" alt="image" src="https://github.com/user-attachments/assets/62162077-6164-466f-8736-0599b1778d64" />
+
+
+
+<img width="950" height="465" alt="image" src="https://github.com/user-attachments/assets/d05a58eb-3cb5-48e1-b88b-19eb39f36091" />
+
 
 #### 📊 User Profile Metrics
 | Metric | Profile Status / Region | Share of Total Accounts / Count |
@@ -190,7 +197,8 @@ Analysis of weekly revenue metrics allows assessing the stability of cash flows,
 
 ### 📊 Dynamics of Total Sales by Weeks
 
-[INSERT CHART HERE]
+<img width="984" height="484" alt="image" src="https://github.com/user-attachments/assets/0314c33c-5b12-41f8-8b1a-21cf3a9c8d8b" />
+
 
 The chart displays changes in revenue volume (Total Sales in millions USD) with a one-week step for the period from November 2020 to February 2021.
 
@@ -206,7 +214,8 @@ The chart displays changes in revenue volume (Total Sales in millions USD) with 
 
 A comprehensive analysis of weekly revenue across geography, technical platforms, and acquisition channels allows localizing cash flow sources and identifying the drivers of the pre-New Year surge and post-holiday slump.
 
-[INSERT 3-CHART IMAGE HERE]
+<img width="984" height="1483" alt="image" src="https://github.com/user-attachments/assets/f26c3933-6772-4c5b-b633-fc17161442a4" />
+
 
 ---
 
@@ -242,7 +251,8 @@ The third chart visualizes the performance of marketing channels: organic search
 
 This heatmap demonstrates the distribution of sales volumes (in thousands USD) between geographical markets and all product categories. The visualization allows identifying zones of maximum revenue concentration and comparing demand structures across countries.
 
-[INSERT CHART HERE]
+<img width="974" height="483" alt="image" src="https://github.com/user-attachments/assets/3a178ba8-58b5-42ee-8fe9-8508a3cda6c6" />
+
 
 #### 🔑 Key Insights:
 * **Dominance of the United States Market:** The highest sales figures are recorded in the United States (US) column. Sales in the sofas and armchairs category (`Sofas & armchairs`) in the US amount to 3,707.1K USD, which is the maximum figure in monetary equivalent for the entire business. The sales volume of secondary categories in the US exceeds the revenue from top categories in other countries.
@@ -279,15 +289,27 @@ This pivot table displays the average order value (AOV in USD) depending on the 
 To analyze the relationship between daily buyer activity and financial results, preliminary testing of the metrics' distribution for normality was conducted using the D'Agostino test (`stats.normaltest`).
 
 * **Test result for daily revenue (`total_sales`):** $p$-value = 0.00715
+
+<img width="611" height="441" alt="image" src="https://github.com/user-attachments/assets/b5b6eb43-9cc5-49bc-a1ae-c7b92a03deed" />
+
 * **Test result for the number of orders (`total_orders`):** $p$-value = 0.02338
+
+<img width="574" height="441" alt="image" src="https://github.com/user-attachments/assets/559d52ef-b02e-41c0-a18b-18f131a48d8c" />
+
+  
 
 **Justification for Metric Selection:** Since the $p$-value < 0.05 for both indicators, the hypothesis of their normal distribution was officially rejected. Right-side asymmetry (the presence of long tails towards high values) is clearly visible on the histograms, reflecting the specifics of e-commerce: days of large-scale sales or marketing campaigns create heavy outliers.
 
 Under such conditions, Pearson's linear coefficient works incorrectly. To evaluate the relationship, **Spearman's non-parametric rank correlation coefficient (Spearman's rho)** was selected, as it is robust to deviations from normality and operates on data ranks.
 
 #### 📊 Results of Spearman Correlation Calculation:
+
+<img width="613" height="441" alt="image" src="https://github.com/user-attachments/assets/7bc3de0f-364d-4cf3-822b-afe5c6eb3e8b" />
+
 * **Spearman correlation coefficient ($r_s$):** 0.9510
 * **Statistical significance ($p$-value):** $1.35 \times 10^{-45}$
+
+
 
 #### 🔑 Key Insights:
 * **Almost Perfect Link:** The coefficient value $r_s = 0.9510$ indicates an extremely strong, direct monotonic relationship between the number of completed carts and the final daily revenue. Order dynamics determine the financial success of the platform almost linearly: each new check stably scales the total revenue without dips in the average value of goods.
@@ -354,7 +376,13 @@ To study audience behavior, two daily samples were formed: total sales volume (r
 
 #### 📈 Normality Verification of Distributions:
 * **Unregistered Users:** $p$-value = 0.00557 (normality hypothesis rejected)
+
+<img width="572" height="441" alt="image" src="https://github.com/user-attachments/assets/414d913c-1403-4c03-aa28-52b656d7e044" />
+
 * **Registered Users:** $p$-value = 0.01093 (normality hypothesis rejected)
+
+<img width="602" height="441" alt="image" src="https://github.com/user-attachments/assets/afaa0cbe-6ce9-4497-b2b5-d5dd47cd01d8" />
+
 
 **Justification for Statistical Test Selection:** Since both daily distributions turned out to be asymmetric and do not follow a normal distribution law ($p < 0.05$), using Student's parametric t-test is incorrect. To compare the samples, the non-parametric **Mann-Whitney U-test** was chosen, which evaluates the probability that values in one group are systematically higher than in another.
 
